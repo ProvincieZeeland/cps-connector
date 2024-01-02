@@ -46,7 +46,7 @@ The PoC is a fully functional but pretty basic solution which supports:
 - Search endpoint
 
 ## Architecture overview
-
+**CPS EXPORT**
 ![cps-export](https://github.com/ProvincieZeeland/cps-connector/assets/196572/79665788-cf78-405b-b8f6-78bbf65905b6)
 
 
