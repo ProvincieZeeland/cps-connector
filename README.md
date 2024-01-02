@@ -1,8 +1,6 @@
 # cps-connector
 The CPS-connector is set of Docker containers used for updating our Elasticsearch nodes using API requests with optional notification to external parties (websites, DIWOO sitemaps) as well as importing data from external sources. 
 My first Python project after 23 years using PHP code :-) 
-
-![cps-export](https://github.com/ProvincieZeeland/cps-connector/assets/196572/55d5dd7e-d4f1-48bf-990c-aef0c80daec2)
  
 ## Version history
 
@@ -27,17 +25,21 @@ The PoC is a fully functional but pretty basic solution which supports:
 - Added new mapping / Python code for saving transaction data and timing (request, workflows and responses).
 - Elastic related operations are now devided into 2 Docker containers (1 for read, 1 for write aka CQRS).
 
+### 0.6 Pretty much a rewrite
+
+- Read actions (metadata / content) is now a separate container.
+- Update actions are now queued using RabbitMQ and handled by a dedicated Python worker.
+- PHP based Dashboard for ACC / PROD environment with option to view transaction metadata and Docker containers using Docker proxy
+- Tokens are now more complex and authentication now handled by a dedicated Docker container (Enigma).
+- All containers now use correct timezone (Amsterdam).
+- All containers now have a mount to a local path for logfiles.
+- Set container security
+- Some performance changes for Elasticsearch.
+
 **TODO**
 
 - Support for API versioning (should we use a decicated API gateway like Kong or Tyk ?).
 - Swagger / OpenAPI specs.
-- Cockpit container for observability (logging, monitoring, display transactions, stats).
-- Research for log management (filebeat, metricbeat, Logstash etc).
-- Token management (JWT payloads).
-- Elasticsearch performance tuning.
-- Elasticsearch security best practices.
-- Perfomance tuning Python / Flask.
-- Best practices / tuning Docker containers.
 - Search endpoint
 
 ## Architecture overview
