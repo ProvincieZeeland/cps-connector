@@ -49,6 +49,8 @@ The PoC is a fully functional but pretty basic solution which supports:
 **CPS EXPORT**
 ![cps-export](https://github.com/ProvincieZeeland/cps-connector/assets/196572/79665788-cf78-405b-b8f6-78bbf65905b6)
 
+**CPS IMPORT (zaaksysteem)**
+**CP![zaaksysteem](https://github.com/ProvincieZeeland/cps-connector/assets/196572/36701594-b1ba-4e2b-b5a4-9467ef6cae78)
 
 ## Getting started
 After cloning this repo, you should have a map structure like this:
