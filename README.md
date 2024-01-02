@@ -35,6 +35,8 @@ The PoC is a fully functional but pretty basic solution which supports:
 - All containers now have a mount to a local path for logfiles.
 - Set container security
 - Some performance changes for Elasticsearch.
+- Added support for updating XML sitemaps for DIWOO.
+- Importing data / documents based on Zaaksysteem webhook with version control using RabbitMQ and oAUTH authentication.
 
 **TODO**
 
