@@ -29,22 +29,26 @@ The PoC is a fully functional but pretty basic solution which supports:
 
 - Read actions (metadata / content) is now a separate container.
 - Update actions are now queued using RabbitMQ and handled by a dedicated Python worker.
-- PHP based Dashboard for ACC / PROD environment with option to view transaction metadata and Docker containers using Docker proxy
+- PHP based Dashboard for ACC / PROD environment with option to view transaction metadata.
+- Docker proxy container to access Docker API (dashboard).
 - Tokens are now more complex and authentication now handled by a dedicated Docker container (Enigma).
 - All containers now use correct timezone (Amsterdam).
 - All containers now have a mount to a local path for logfiles.
 - Set container security
 - Some performance changes for Elasticsearch.
 - Added support for updating XML sitemaps for DIWOO.
-- Importing data / documents based on Zaaksysteem webhook with version control using RabbitMQ and oAUTH authentication.
+- Importing data / documents based on Zaaksysteem webhook with version control / oAUTH authentication (redis).
+- Uptime / resource monitoring using Uptime-Kuma.
 
 **TODO**
 
-- Support for API versioning (should we use a decicated API gateway like Kong or Tyk ?).
 - Swagger / OpenAPI specs.
 - Search endpoint
 
 ## Architecture overview
+
+![cps-export](https://github.com/ProvincieZeeland/cps-connector/assets/196572/79665788-cf78-405b-b8f6-78bbf65905b6)
+
 
 ## Getting started
 After cloning this repo, you should have a map structure like this:
