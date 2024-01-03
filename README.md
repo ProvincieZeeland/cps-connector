@@ -6,7 +6,7 @@ My first Python project after 23 years using PHP code :-)
 If you're interested in versions (which are no longer available), have a look at (https://github.com/ProvincieZeeland/cps-connector/wiki/Version-history)
 
 ## Getting started
-The main branch only contains documentation, each part of the CPS Connector now has it's own branch:
+The main branch now contains a setup directory structure but withouyt the actual files, each part of the CPS Connector now has it's own branch:
 
 - [Elasticsearch](https://github.com/ProvincieZeeland/cps-connector/tree/elasticsearch)
  
