@@ -3,7 +3,7 @@ The CPS-connector is set of Docker containers used for updating our Elasticsearc
 My first Python project after 23 years using PHP code :-) 
 
 ## Versions
-If you're interested in versions (which are no longer available), have a look at https://github.com/ProvincieZeeland/cps-connector/wiki/Version-history
+If you're interested in versions (which are no longer available), have a look at (https://github.com/ProvincieZeeland/cps-connector/wiki/Version-history)
 
 ## Getting started
 The main branch only contains documentation, each part of the CPS Connector now has it's own branch:
