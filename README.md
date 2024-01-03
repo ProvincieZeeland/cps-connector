@@ -46,15 +46,16 @@ The PoC is a fully functional but pretty basic solution which supports:
 - Search endpoint
 
 ## Getting started
-After cloning this repo, you should have a map structure like this:
+The main branch only contains documentation, each part of the CPS Connector now has it's own branch
 
-```
-|-- Info.md
-|-- api
-|-- elasticsearch
-|-- proxy
-```
+- [Elasticsearch] (https://github.com/ProvincieZeeland/cps-connector/tree/elasticsearch)
  
+
+
+
+
+
+
 - [1: Configure Elasticsearch / Kibana](https://github.com/ProvincieZeeland/es-connector/wiki/1:-Configure-Elasticsearch--&-Kibana-nodes)
 - [2: Setup Elasticsearch mappings etc.](https://github.com/ProvincieZeeland/es-connector/wiki/2:-Setup-Elasticsearch-mappings-etc.)
 - [3: Configure the API](https://github.com/ProvincieZeeland/es-connector/wiki/3:-Configure-the-API)
