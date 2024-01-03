@@ -27,6 +27,7 @@ The PoC is a fully functional but pretty basic solution which supports:
 
 ### 0.6 Pretty much a rewrite
 
+- Each module / container now has it's own branch within the cps-connector repo.
 - Read actions (metadata / content) is now a separate container.
 - Update actions are now queued using RabbitMQ and handled by a dedicated Python worker.
 - PHP based Dashboard for ACC / PROD environment with option to view transaction metadata.
@@ -46,15 +47,11 @@ The PoC is a fully functional but pretty basic solution which supports:
 - Search endpoint
 
 ## Getting started
-The main branch only contains documentation, each part of the CPS Connector now has it's own branch
+The main branch only contains documentation, each part of the CPS Connector now has it's own branch:
 
 - [Elasticsearch](https://github.com/ProvincieZeeland/cps-connector/tree/elasticsearch)
  
-
-
-
-
-
+## Getting started
 
 - [1: Configure Elasticsearch / Kibana](https://github.com/ProvincieZeeland/es-connector/wiki/1:-Configure-Elasticsearch--&-Kibana-nodes)
 - [2: Setup Elasticsearch mappings etc.](https://github.com/ProvincieZeeland/es-connector/wiki/2:-Setup-Elasticsearch-mappings-etc.)
