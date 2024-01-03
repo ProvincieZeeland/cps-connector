@@ -48,7 +48,7 @@ The PoC is a fully functional but pretty basic solution which supports:
 ## Getting started
 The main branch only contains documentation, each part of the CPS Connector now has it's own branch
 
-- [Elasticsearch] (https://github.com/ProvincieZeeland/cps-connector/tree/elasticsearch)
+- [Elasticsearch](https://github.com/ProvincieZeeland/cps-connector/tree/elasticsearch)
  
 
 
