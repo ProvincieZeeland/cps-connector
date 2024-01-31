@@ -1,6 +1,8 @@
-# cps-connector
+# CPS-connector
 The CPS-connector is set of Docker containers used for updating our Elasticsearch nodes using API requests with optional notification to external parties (websites, DIWOO sitemaps) as well as importing data from external sources. 
-My first Python project after 23 years using PHP code :-) 
+My first Python project after 23 years using PHP code :-).
+
+This repository contains the Python based API / workers, used applications at https://github.com/ProvincieZeeland/cps-connector-applications
 
 ## Versions
 If you're interested in versions (which are no longer available), have a look at (https://github.com/ProvincieZeeland/cps-connector/wiki/Version-history)
