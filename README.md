@@ -8,7 +8,15 @@ This repository contains the Python based API / workers, used applications at ht
 If you're interested in versions (which are no longer available), have a look at (https://github.com/ProvincieZeeland/cps-connector/wiki/Version-history)
 
 ## Getting started
-The main branch now contains a setup directory structure but without the actual files (see (https://gist.github.com/gitaarik/8735255))
+When all neede applications are up and running (without the NGINX proxy) you need to create some networks (docker network create <name>:
+
+- cps_acc
+- cps_prod
+- docker_proxy
+- redis
+- rabbit
+
+
 
 - [Elasticsearch](https://github.com/ProvincieZeeland/cps-connector/tree/elasticsearch)
  
