@@ -16,7 +16,7 @@ Before starting the docker containers, we need some networks (docker network cre
 - redis
 - rabbit
 
-
+TEST
 
 - [Elasticsearch](https://github.com/ProvincieZeeland/cps-connector/tree/elasticsearch)
  
